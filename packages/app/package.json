@@ -1,0 +1,28 @@
+{
+  "name": "@tsed/app",
+  "version": "1.0.0",
+  "private": true,
+  "source": "./src/index.ts",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "test": "yarn test:lint && yarn test:coverage",
+    "test:unit": "cross-env NODE_ENV=test CI=1 jest --detectOpenHandles --coverage",
+    "test:coverage": "yarn test:unit",
+    "test:lint": "yarn eslint src --ext .ts",
+    "test:lint:fix": "yarn eslint src --ext .ts --fix",
+    "prettier:fix": "yarn prettier \"{src,test}/**/*.ts\" --write"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.34.0",
+    "vite-plugin-windicss": "^0.15.10",
+    "windicss": "^3.0.9",
+    "pullstate": "^1.22.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.5"
+  }
+}

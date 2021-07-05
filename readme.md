@@ -1,4 +1,28 @@
-# Ts.ED - Example ViteJS
+<p style="text-align: center" align="center">
+ <a href="https://tsed.io" target="_blank"><img src="https://tsed.io/tsed-og.png" width="200" alt="Ts.ED logo"/></a>
+</p>
+
+<div align="center">
+
+   <h1>Ts.ED - Vite example</h1>
+
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![backers](https://opencollective.com/tsed/tiers/badge.svg)](https://opencollective.com/tsed)
+
+</div>
+
+<div align="center">
+  <a href="https://tsed.io/">Website</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://tsed.io/getting-started/">Getting started</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://api.tsed.io/rest/slack/tsedio/tsed">Slack</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://twitter.com/TsED_io">Twitter</a>
+</div>
+
+<hr />
 
 Here an example to configure your server and how to implement ViteJS
 
@@ -15,6 +39,7 @@ See [Ts.ED](https://tsed.io) project for more information.
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1920px-React-icon.svg.png" height="100" />](https://reactjs.org)
 [<img src="https://github.com/brillout/vite-plugin-ssr/raw/master/docs/logo.svg" height="100" />](https://github.com/brillout/vite-plugin-ssr)
 [<img src="https://github.com/lostpebble/pullstate/raw/master/graphics/logo-newest.png" height="100" />](https://github.com/lostpebble/pullstate)
+
 ## Checkout
 
 ```bash
@@ -23,20 +48,19 @@ git checkout -b https://github.com/tsedio/tsed-example-vite
 
 ## Install
 
-> **Important!** Ts.ED requires Node >= 8, Express >= 4 and TypeScript >= 3.
+You need a granted `GH_TOKEN` to install this project correctly. Ask Ts.ED team on [Slack](https://api.tsed.io/slack/tsedio/tsed) to get a unique personal `GH_TOKEN`.
+
+> **Important!** Ts.ED requires Node >= 12, Express >= 4 and TypeScript >= 3.
 
 ```batch
-npm install
+GH_TOKEN=myghtoken npm install
 ```
 
 ## Run
 
 ```
-npm start
+GH_TOKEN=myghtoken npm start
 ```
-
-## Adding additional pages
-* 
 
 ## Contributing
 
